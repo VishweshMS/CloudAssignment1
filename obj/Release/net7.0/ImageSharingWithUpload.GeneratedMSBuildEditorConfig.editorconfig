@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ImageSharingWithUpload
 build_property.RootNamespace = ImageSharingWithUpload
-build_property.ProjectDir = D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\
+build_property.ProjectDir = C:\Users\Vishwesh\OneDrive\Documents\GitHub\CloudAssignment1\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload
+build_property.MSBuildProjectDirectory = C:\Users\Vishwesh\OneDrive\Documents\GitHub\CloudAssignment1
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Account/Register.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Account/RegisterSuccess.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Account/RegisterSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlclN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Home/Index.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Images/Details.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Images/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Images/Query.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Images/Query.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXFF1ZXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Images/Upload.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Images/Upload.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VzXFVwbG9hZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Shared/Error.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Shared/Layout.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Shared/Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Shared/_CookieConsentPartial.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Shared/_CookieConsentPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Shared/_Layout.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/_ViewImports.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Cloud Computing/Assignment 1/Assignment1-Code/Assignment1-Code/ImageSharingWithUpload/ImageSharingWithUpload/Views/_ViewStart.cshtml]
+[C:/Users/Vishwesh/OneDrive/Documents/GitHub/CloudAssignment1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

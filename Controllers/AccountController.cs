@@ -23,23 +23,23 @@ namespace ImageSharingWithUpload.Controllers
             }
         }
 
-        [HttpGet]
+        // TODO
         public ActionResult Register()
         {
             CheckAda();
             return View();
         }
 
-        [HttpPost]
+        // TODO
         public ActionResult Register(String Username, String ADA)
         {
             CheckAda();
             var options = new CookieOptions() { IsEssential = true, Secure = true, SameSite = SameSiteMode.None, Expires = DateTime.Now.AddMonths(3)  };
 
             // TODO add cookies for "Username".
-            Response.Cookies.Append("Username", Username, options);
+            
             // End TODO
-
+            
             Response.Cookies.Append("ADA", ("on".Equals(ADA) ? "true" : "false"), options);
 
 

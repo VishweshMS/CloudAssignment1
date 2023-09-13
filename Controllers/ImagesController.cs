@@ -26,49 +26,31 @@ namespace ImageSharingWithUpload.Controllers
             this.logger = logger;
         }
 
-        protected void MkDirectories()
+        protected void mkDirectories()
         {
-            if (hostingEnvironment == null)
+            var dataDir = Path.Combine(hostingEnvironment.WebRootPath, "data", "images");
+            if (!Directory.Exists(dataDir))
             {
-                throw new ArgumentNullException(nameof(hostingEnvironment), "Hosting Environment is not initialized.");
+                Directory.CreateDirectory(dataDir);
             }
-
-            try
+            var infoDir = Path.Combine(hostingEnvironment.WebRootPath, "data", "info");
+            if (!Directory.Exists(infoDir))
             {
-                //var dataDir = Path.Combine(hostingEnvironment.WebRootPath, "data", "images");
-                var dataDir = Path.Combine("D:\\A1 Cloud\\ImageSharingWithUpload\\ImageSharingWithUpload\\wwwroot", "data", "images");
-
-                if (!Directory.Exists(dataDir))
-                {
-                    Directory.CreateDirectory(dataDir);
-                }
-
-                var infoDir = Path.Combine(hostingEnvironment.WebRootPath, "data", "info");
-                if (!Directory.Exists(infoDir))
-                {
-                    Directory.CreateDirectory(infoDir);
-                }
-            }
-            catch (Exception ex)
-            {
-                // You can log the exception here or handle it as required.
-                throw new InvalidOperationException("Failed to create required directories.", ex);
+                Directory.CreateDirectory(infoDir);
             }
         }
-
 
         protected string imageDataFile(string id)
         {
             return Path.Combine(
-               "D:\\A1 Cloud\\ImageSharingWithUpload\\ImageSharingWithUpload\\wwwroot", "data", "images", id + ".jpg");
+               hostingEnvironment.WebRootPath, "data", "images", id + ".jpg");
         }
 
         protected string imageInfoFile(string id)
         {
             return Path.Combine(
-               "D:\\A1 Cloud\\ImageSharingWithUpload\\ImageSharingWithUpload\\wwwroot", "data", "info", id + ".js");
+               hostingEnvironment.WebRootPath, "data", "info", id + ".js");
         }
-
 
         protected void CheckAda()
         {
@@ -84,7 +66,7 @@ namespace ImageSharingWithUpload.Controllers
             }
         }
 
-        [HttpGet]
+        // TODO
         public IActionResult Upload()
         {
             CheckAda();
@@ -92,8 +74,9 @@ namespace ImageSharingWithUpload.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Upload(Image image, IFormFile imageFile)
+        // TODO
+        public async Task<IActionResult> Upload(Image image,
+                                                IFormFile imageFile)
         {
             CheckAda();
 
@@ -107,32 +90,20 @@ namespace ImageSharingWithUpload.Controllers
 
                 image.Username = username;
 
-                if (imageFile != null && imageFile.Length > 0 && imageFile.Length < 5 * 1024 * 1024) // 5 MB limit
+                /*
+                 * Save image information on the server file system.
+                 */
+
+                if (imageFile != null && imageFile.Length > 0)
                 {
-                    if (!Regex.IsMatch(image.Id, "^[a-zA-Z0-9_]+$"))
-                    {
-                        ViewBag.Message = "Image ID should be alphanumeric with underscores!";
-                        return View(image);
-                    }
-
-                    if (imageFile.ContentType.ToLower() != "image/jpeg")
-                    {
-                        ViewBag.Message = "Only JPEG images are allowed!";
-                        return View(image);
-                    }
-
                     mkDirectories();
 
                     var jsonOptions = new JsonSerializerOptions { WriteIndented = true };
-                    if (string.IsNullOrEmpty(image.Id))
-                    {
-                        ViewBag.Message = "Image ID is not provided!";
-                        return View(image);
-                    }
 
-                    using var fileStream = new FileStream(imageDataFile(image.Id), FileMode.Create);
-                    await imageFile.CopyToAsync(fileStream);
+                    // TODO save image on server file system
 
+
+                    // Save metadata as JSON object on file system
                     var jsonData = JsonSerializer.Serialize(image, jsonOptions);
                     await System.IO.File.WriteAllTextAsync(imageInfoFile(image.Id), jsonData);
 
@@ -140,9 +111,10 @@ namespace ImageSharingWithUpload.Controllers
                 }
                 else
                 {
-                    ViewBag.Message = "No image file specified or the file is too large!";
+                    ViewBag.Message = "No image file specified!";
                     return View(image);
                 }
+
             }
             else
             {
@@ -152,7 +124,6 @@ namespace ImageSharingWithUpload.Controllers
         }
 
         // TODO
-        [HttpGet]
         public IActionResult Query()
         {
             CheckAda();
@@ -160,24 +131,8 @@ namespace ImageSharingWithUpload.Controllers
             return View();
         }
 
-
-        [HttpPost]
-        public async Task<IActionResult> Query(string imageId)
-        {
-            CheckAda();
-            if (string.IsNullOrEmpty(imageId))
-            {
-                ViewBag.Message = "Please provide an image ID.";
-                return View();
-            }
-
-            // Redirect to the Details action to show the image details
-            return RedirectToAction("Details", new { id = imageId });
-        }
-
         // TODO
-        [HttpGet]
-        public async Task<IActionResult> Details(string id)
+        public async Task<IActionResult> Details(Image image)
         {
             CheckAda();
 
@@ -187,12 +142,7 @@ namespace ImageSharingWithUpload.Controllers
                 return RedirectToAction("Register", "Account");
             }
 
-            if (string.IsNullOrEmpty(id))
-            {
-                ViewBag.Message = "Image ID is not provided!";
-                return View("Query");
-            }
-            String fileName = imageInfoFile(id);
+            String fileName = imageInfoFile(image.Id);
             if (System.IO.File.Exists(fileName))
             {
                 String jsonData = await System.IO.File.ReadAllTextAsync(fileName);
@@ -202,11 +152,13 @@ namespace ImageSharingWithUpload.Controllers
             }
             else
             {
-                ViewBag.Message = "Image with identifier " + id + " not found";
-                ViewBag.Id = id;
+                ViewBag.Message = "Image with identifer " + image.Id + " not found";
+                ViewBag.Id = image.Id;
 
                 return View("Query");
             }
+
         }
+
     }
 }
