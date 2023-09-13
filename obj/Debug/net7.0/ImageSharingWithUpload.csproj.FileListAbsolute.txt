@@ -1,0 +1,57 @@
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\appsettings.Development.json
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\appsettings.json
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.staticwebassets.runtime.json
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.exe
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.deps.json
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.runtimeconfig.json
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.dll
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.pdb
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.AssemblyInfoInputs.cache
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.AssemblyInfo.cs
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.MvcApplicationPartsAssemblyInfo.cache
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.RazorAssemblyInfo.cache
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.RazorAssemblyInfo.cs
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets\msbuild.ImageSharingWithUpload.Microsoft.AspNetCore.StaticWebAssets.props
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets\msbuild.build.ImageSharingWithUpload.props
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ImageSharingWithUpload.props
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ImageSharingWithUpload.props
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets.pack.json
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets.build.json
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets.development.json
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\scopedcss\bundle\ImageSharingWithUpload.styles.css
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.dll
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\refint\ImageSharingWithUpload.dll
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.pdb
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.genruntimeconfig.cache
+\\Mac\Home\Documents\Teach\CS526\Classes\2023-Fall\Assignments\Assignment1-Web-App\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ref\ImageSharingWithUpload.dll
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\appsettings.Development.json
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\appsettings.json
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.staticwebassets.runtime.json
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.exe
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.deps.json
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.runtimeconfig.json
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.dll
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\bin\Debug\net7.0\ImageSharingWithUpload.pdb
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.csproj.AssemblyReference.cache
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.AssemblyInfoInputs.cache
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.AssemblyInfo.cs
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.csproj.CoreCompileInputs.cache
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.MvcApplicationPartsAssemblyInfo.cache
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.RazorAssemblyInfo.cache
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.RazorAssemblyInfo.cs
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets\msbuild.ImageSharingWithUpload.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets\msbuild.build.ImageSharingWithUpload.props
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ImageSharingWithUpload.props
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ImageSharingWithUpload.props
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets.build.json
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\staticwebassets.development.json
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\scopedcss\bundle\ImageSharingWithUpload.styles.css
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.dll
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\refint\ImageSharingWithUpload.dll
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.pdb
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ImageSharingWithUpload.genruntimeconfig.cache
+D:\Cloud Computing\Assignment 1\Assignment1-Code\Assignment1-Code\ImageSharingWithUpload\ImageSharingWithUpload\obj\Debug\net7.0\ref\ImageSharingWithUpload.dll
